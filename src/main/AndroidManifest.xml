@@ -12,7 +12,19 @@
         android:theme="@style/Theme.MonAppli"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".aPropos"
+            android:exported="false" />
+        <activity
+            android:name=".highScore"
+            android:exported="false" />
+        <activity
+            android:name=".pagePerdu"
+            android:exported="false" />
+        <activity
+            android:name=".pageJeu"
+            android:exported="false" />
+        <activity
+            android:name=".menuPrincipal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
