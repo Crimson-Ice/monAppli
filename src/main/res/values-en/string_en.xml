@@ -8,6 +8,10 @@
     <string name="textPerdu">You lost noob !!!</string>
     <string name="boutonSaveScore">Save</string>
     <string name="textNomBinome">Julien DURIEUX,\n Antonin DRUJON</string>
-    <string name="textPageHighscore" translatable="true">Highscore</string>
+    <string name="textPageHighscore">Highscore</string>
+    <string name="toolbarScore">monScore</string>
+    <string name="toolbarVie">mesVies</string>
+
+
 
 </resources>

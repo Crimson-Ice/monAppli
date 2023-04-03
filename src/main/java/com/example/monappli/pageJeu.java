@@ -65,6 +65,7 @@ public class pageJeu extends AppCompatActivity implements View.OnClickListener {
             } else {
                 Toast.makeText(pageJeu.this, "Dommage", Toast.LENGTH_LONG).show();
                 mesVies -= 1;
+
                 if (mesVies <= 0) {
                     finish();
                     Intent intent = new Intent(pageJeu.this, pagePerdu.class);
