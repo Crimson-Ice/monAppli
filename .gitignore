@@ -1,1 +1,30 @@
-/build
+# Fichiers de build générés
+build/
+app/build/
+*.apk
+*.aar
+*.ap_
+
+# Fichiers d'environnement spécifiques à l'utilisateur
+local.properties
+*.jks
+*.keystore
+*.gradle
+/.idea/
+
+# Fichiers de sauvegarde et fichiers temporaires
+*.bak
+*.swp
+*.tmp
+*.log
+*.cache/
+*.gradle/
+
+# Fichiers spécifiques à votre IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Fichiers de dépendances téléchargées
+.gradle/
